@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.card {
+  position: relative;
+  margin-top: 40px;
+  width: 400px;
+  height: 600px;
+  background-color: white;
+}
+.card .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .top .userDetails {
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  height: 30px;
+  margin-right: 15px;
+}
+
+.card .top .userDetails .profile_img {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-right: 8px;
+}
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card .top .userDetails h3 {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  line-height: 1em;
+}
+.card .top .userDetails h3 span {
+  font-size: 0.75em;
+}
+
+.imgBx {
+  position: relative;
+  width: 400px;
+  height: 320px;
+  margin: 10px 0 15px;
+}
+.actionBtns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.actionBtns img {
+  max-width: 24px;
+  margin: 0 3px;
+}
+.actionBtns {
+  margin-right: 8px;
+}
+.message,
+.likes {
+  font-weight: 400;
+  padding: 10px;
+  margin: 0;
+}
